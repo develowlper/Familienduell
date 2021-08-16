@@ -1,0 +1,27 @@
+{
+  "name": "familienduell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/server.js",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/develowlper/Familienduell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/develowlper/Familienduell/issues"
+  },
+  "homepage": "https://github.com/develowlper/Familienduell#readme",
+  "dependencies": {
+    "ws": "^0.4.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
